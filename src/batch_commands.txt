@@ -1,0 +1,47 @@
+add_group instructors
+add_group friends
+add_group connections
+list_groups
+add_user instructors elton1
+add_user instructors pancer 
+add_user friends david3 
+add_user instructors elton
+add_user instructors nizam
+list_users instructors
+list_users friends
+list_users connections
+remove_user instructors elton
+list_users instructors
+remove_user instructors elton1
+list_users instructors
+user_balance instructors pancer
+user_balance friends david3
+under_paid instructors
+under_paid connections
+add_xct instructors pancer 65
+list_users instructors
+user_balance instructors pancer
+user_balance instructors nizam
+add_xct friends david3 15.08
+list_users friends
+user_balance friends david3
+add_xct instructors nizam 117.95
+list_users instructors
+user_balance instructors pancer
+user_balance instructors nizam
+add_xct instructors pancer 220.95
+list_users instructors
+user_balance instructors pancer
+user_balance instructors nizam
+list_users friends
+user_balance friends david3
+under_paid instructors
+list_users instructors
+recent_xct instructors 5
+remove_user instructors pancer
+recent_xct instructors 5
+recent_xct friends 5
+remove_user friends david3
+list_users friends
+recent_xct friends 5
+quit
